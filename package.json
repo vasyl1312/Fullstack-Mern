@@ -1,0 +1,28 @@
+{
+  "name": "fullstack-mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "server": "nodemon index.js",
+     "client": "npm run start --prefix client",
+     "dev": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasyl1312/Fullstack-Mern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasyl1312/Fullstack-Mern/issues"
+  },
+  "homepage": "https://github.com/vasyl1312/Fullstack-Mern#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.5",
+    "nodemon": "^2.0.15"
+  }
+}
